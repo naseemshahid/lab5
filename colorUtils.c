@@ -64,3 +64,17 @@ float sepiagreen =  (0.349 * red) + (0.686 * green) + (0.168 * blue);
 
 return sepiagreen;
 
+}
+
+
+
+
+// Defining toSepiaBlue(); function 
+
+double toSepiaBlue(int red,int green,int blue){
+
+double sepiablue =  (0.272 * red) + (0.534 * green) + (0.131 * blue);
+
+return sepiablue;
+
+}
