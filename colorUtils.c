@@ -33,3 +33,15 @@ else if( b<=a && b<=c){
 return c;
 
 }
+
+// Defining toGrayScaleLuminosity(); function
+
+double toGrayScaleLightness(int red, int green, int blue)
+{
+
+  
+double greyscalevalue = ( max(red,green,blue) + min(red,green,blue) ) / 2;
+
+return greyscalevalue;
+
+}
