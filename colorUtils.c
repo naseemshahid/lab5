@@ -45,3 +45,14 @@ double greyscalevalue = ( max(red,green,blue) + min(red,green,blue) ) / 2;
 return greyscalevalue;
 
 }
+
+
+// Defination of toSepiaRed(); function 
+
+float toSepiaRed(int red,int green,int blue){
+
+float sepiared =  (0.393 * red) + (0.769 * green) + (0.189 * blue);
+
+return sepiared;
+}
+
